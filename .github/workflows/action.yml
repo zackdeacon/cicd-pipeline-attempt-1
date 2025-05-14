@@ -1,0 +1,15 @@
+name: cicd pipeline flow job 
+
+on: push 
+
+jobs: 
+  job-1: 
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4.2.2
+      - name: run python script
+        run: python hello.py
+
+      
