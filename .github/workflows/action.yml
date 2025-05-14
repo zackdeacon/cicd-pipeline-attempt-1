@@ -1,4 +1,4 @@
-name: cicd pipeline flow job 
+name: cicd_pipeline
 
 on: push 
 
